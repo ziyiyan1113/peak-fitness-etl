@@ -33,8 +33,8 @@ Edit
 |--------------------------------------|-----------------------------------------------------|
 | `transform_fact_class_signups`      | Parses the CSV of historical class schedules        |
 | `fact_event_table`                  | Parses JSON events (signup, cancel, browse)         |
-| `fact_class_signups_with_user_id`   | Joins signup events to class metadata               |
-| `generate_marketing_segments`       | Builds email lists for churn / power users          |
+| `email_segment_inactive_users`      | Segments users who have not signed up in 7+ days    |
+| `email_segments_export`             | Exports all email segment CSVs to S3               |
 | `generate_leaderboard_top_attendees`| Builds weekly user leaderboard                      |
 
 ---
